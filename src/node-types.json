@@ -1,0 +1,2449 @@
+[
+  {
+    "type": "aliased_identifier",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "identifier",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "arg_list",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "arg_list_item",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "arg_list_item",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "atom_cast",
+          "named": true
+        },
+        {
+          "type": "atom_deref",
+          "named": true
+        },
+        {
+          "type": "atom_dot",
+          "named": true
+        },
+        {
+          "type": "atom_func_call",
+          "named": true
+        },
+        {
+          "type": "atom_hex_number",
+          "named": true
+        },
+        {
+          "type": "atom_hint",
+          "named": true
+        },
+        {
+          "type": "atom_reg",
+          "named": true
+        },
+        {
+          "type": "atom_short_string",
+          "named": true
+        },
+        {
+          "type": "atom_subscript",
+          "named": true
+        },
+        {
+          "type": "atom_tuple_or_parentheses",
+          "named": true
+        },
+        {
+          "type": "expr_add",
+          "named": true
+        },
+        {
+          "type": "expr_div",
+          "named": true
+        },
+        {
+          "type": "expr_mul",
+          "named": true
+        },
+        {
+          "type": "expr_pow",
+          "named": true
+        },
+        {
+          "type": "expr_sub",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "number",
+          "named": true
+        },
+        {
+          "type": "unary_addressof",
+          "named": true
+        },
+        {
+          "type": "unary_neg",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "arguments",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "type",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "atom_cast",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "atom_cast",
+          "named": true
+        },
+        {
+          "type": "atom_deref",
+          "named": true
+        },
+        {
+          "type": "atom_dot",
+          "named": true
+        },
+        {
+          "type": "atom_func_call",
+          "named": true
+        },
+        {
+          "type": "atom_hex_number",
+          "named": true
+        },
+        {
+          "type": "atom_hint",
+          "named": true
+        },
+        {
+          "type": "atom_reg",
+          "named": true
+        },
+        {
+          "type": "atom_short_string",
+          "named": true
+        },
+        {
+          "type": "atom_subscript",
+          "named": true
+        },
+        {
+          "type": "atom_tuple_or_parentheses",
+          "named": true
+        },
+        {
+          "type": "expr_add",
+          "named": true
+        },
+        {
+          "type": "expr_div",
+          "named": true
+        },
+        {
+          "type": "expr_mul",
+          "named": true
+        },
+        {
+          "type": "expr_pow",
+          "named": true
+        },
+        {
+          "type": "expr_sub",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "number",
+          "named": true
+        },
+        {
+          "type": "type",
+          "named": true
+        },
+        {
+          "type": "unary_addressof",
+          "named": true
+        },
+        {
+          "type": "unary_neg",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "atom_deref",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": false,
+      "types": [
+        {
+          "type": "atom_cast",
+          "named": true
+        },
+        {
+          "type": "atom_deref",
+          "named": true
+        },
+        {
+          "type": "atom_dot",
+          "named": true
+        },
+        {
+          "type": "atom_func_call",
+          "named": true
+        },
+        {
+          "type": "atom_hex_number",
+          "named": true
+        },
+        {
+          "type": "atom_hint",
+          "named": true
+        },
+        {
+          "type": "atom_reg",
+          "named": true
+        },
+        {
+          "type": "atom_short_string",
+          "named": true
+        },
+        {
+          "type": "atom_subscript",
+          "named": true
+        },
+        {
+          "type": "atom_tuple_or_parentheses",
+          "named": true
+        },
+        {
+          "type": "expr_add",
+          "named": true
+        },
+        {
+          "type": "expr_div",
+          "named": true
+        },
+        {
+          "type": "expr_mul",
+          "named": true
+        },
+        {
+          "type": "expr_pow",
+          "named": true
+        },
+        {
+          "type": "expr_sub",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "number",
+          "named": true
+        },
+        {
+          "type": "unary_addressof",
+          "named": true
+        },
+        {
+          "type": "unary_neg",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "atom_dot",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "atom_cast",
+          "named": true
+        },
+        {
+          "type": "atom_deref",
+          "named": true
+        },
+        {
+          "type": "atom_dot",
+          "named": true
+        },
+        {
+          "type": "atom_func_call",
+          "named": true
+        },
+        {
+          "type": "atom_hex_number",
+          "named": true
+        },
+        {
+          "type": "atom_hint",
+          "named": true
+        },
+        {
+          "type": "atom_reg",
+          "named": true
+        },
+        {
+          "type": "atom_short_string",
+          "named": true
+        },
+        {
+          "type": "atom_subscript",
+          "named": true
+        },
+        {
+          "type": "atom_tuple_or_parentheses",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "number",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "atom_func_call",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "function_call",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "atom_hint",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "atom_reg",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "atom_subscript",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "atom_cast",
+          "named": true
+        },
+        {
+          "type": "atom_deref",
+          "named": true
+        },
+        {
+          "type": "atom_dot",
+          "named": true
+        },
+        {
+          "type": "atom_func_call",
+          "named": true
+        },
+        {
+          "type": "atom_hex_number",
+          "named": true
+        },
+        {
+          "type": "atom_hint",
+          "named": true
+        },
+        {
+          "type": "atom_reg",
+          "named": true
+        },
+        {
+          "type": "atom_short_string",
+          "named": true
+        },
+        {
+          "type": "atom_subscript",
+          "named": true
+        },
+        {
+          "type": "atom_tuple_or_parentheses",
+          "named": true
+        },
+        {
+          "type": "expr_add",
+          "named": true
+        },
+        {
+          "type": "expr_div",
+          "named": true
+        },
+        {
+          "type": "expr_mul",
+          "named": true
+        },
+        {
+          "type": "expr_pow",
+          "named": true
+        },
+        {
+          "type": "expr_sub",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "number",
+          "named": true
+        },
+        {
+          "type": "unary_addressof",
+          "named": true
+        },
+        {
+          "type": "unary_neg",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "atom_tuple_or_parentheses",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": false,
+      "types": [
+        {
+          "type": "arg_list",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "builtin_directive",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "identifier",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "cairo_file",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "code_block",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "call_instruction",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": false,
+      "types": [
+        {
+          "type": "atom_cast",
+          "named": true
+        },
+        {
+          "type": "atom_deref",
+          "named": true
+        },
+        {
+          "type": "atom_dot",
+          "named": true
+        },
+        {
+          "type": "atom_func_call",
+          "named": true
+        },
+        {
+          "type": "atom_hex_number",
+          "named": true
+        },
+        {
+          "type": "atom_hint",
+          "named": true
+        },
+        {
+          "type": "atom_reg",
+          "named": true
+        },
+        {
+          "type": "atom_short_string",
+          "named": true
+        },
+        {
+          "type": "atom_subscript",
+          "named": true
+        },
+        {
+          "type": "atom_tuple_or_parentheses",
+          "named": true
+        },
+        {
+          "type": "expr_add",
+          "named": true
+        },
+        {
+          "type": "expr_div",
+          "named": true
+        },
+        {
+          "type": "expr_mul",
+          "named": true
+        },
+        {
+          "type": "expr_pow",
+          "named": true
+        },
+        {
+          "type": "expr_sub",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "number",
+          "named": true
+        },
+        {
+          "type": "unary_addressof",
+          "named": true
+        },
+        {
+          "type": "unary_neg",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "code_block",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "code_element_directive",
+          "named": true
+        },
+        {
+          "type": "code_element_function",
+          "named": true
+        },
+        {
+          "type": "code_element_import",
+          "named": true
+        },
+        {
+          "type": "code_element_instruction",
+          "named": true
+        },
+        {
+          "type": "code_element_member",
+          "named": true
+        },
+        {
+          "type": "code_element_reference",
+          "named": true
+        },
+        {
+          "type": "code_element_return",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "code_element_directive",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "builtin_directive",
+          "named": true
+        },
+        {
+          "type": "lang_directive",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "code_element_function",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "func",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "code_element_import",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "import_body",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "code_element_instruction",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "call_instruction",
+          "named": true
+        },
+        {
+          "type": "inst_add_ap",
+          "named": true
+        },
+        {
+          "type": "inst_assert_eq",
+          "named": true
+        },
+        {
+          "type": "inst_data_word",
+          "named": true
+        },
+        {
+          "type": "inst_jmp_abs",
+          "named": true
+        },
+        {
+          "type": "inst_jmp_rel",
+          "named": true
+        },
+        {
+          "type": "inst_jmp_to_label",
+          "named": true
+        },
+        {
+          "type": "inst_jnz",
+          "named": true
+        },
+        {
+          "type": "inst_jnz_to_label",
+          "named": true
+        },
+        {
+          "type": "inst_ret",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "code_element_member",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "typed_identifier",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "code_element_reference",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "rvalue",
+          "named": true
+        },
+        {
+          "type": "typed_identifier",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "code_element_return",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": false,
+      "types": [
+        {
+          "type": "arg_list",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "decorator",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "identifier",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "decorator_list",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "decorator",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "expr_add",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "atom_cast",
+          "named": true
+        },
+        {
+          "type": "atom_deref",
+          "named": true
+        },
+        {
+          "type": "atom_dot",
+          "named": true
+        },
+        {
+          "type": "atom_func_call",
+          "named": true
+        },
+        {
+          "type": "atom_hex_number",
+          "named": true
+        },
+        {
+          "type": "atom_hint",
+          "named": true
+        },
+        {
+          "type": "atom_reg",
+          "named": true
+        },
+        {
+          "type": "atom_short_string",
+          "named": true
+        },
+        {
+          "type": "atom_subscript",
+          "named": true
+        },
+        {
+          "type": "atom_tuple_or_parentheses",
+          "named": true
+        },
+        {
+          "type": "expr_add",
+          "named": true
+        },
+        {
+          "type": "expr_div",
+          "named": true
+        },
+        {
+          "type": "expr_mul",
+          "named": true
+        },
+        {
+          "type": "expr_pow",
+          "named": true
+        },
+        {
+          "type": "expr_sub",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "number",
+          "named": true
+        },
+        {
+          "type": "unary_addressof",
+          "named": true
+        },
+        {
+          "type": "unary_neg",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "expr_div",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "atom_cast",
+          "named": true
+        },
+        {
+          "type": "atom_deref",
+          "named": true
+        },
+        {
+          "type": "atom_dot",
+          "named": true
+        },
+        {
+          "type": "atom_func_call",
+          "named": true
+        },
+        {
+          "type": "atom_hex_number",
+          "named": true
+        },
+        {
+          "type": "atom_hint",
+          "named": true
+        },
+        {
+          "type": "atom_reg",
+          "named": true
+        },
+        {
+          "type": "atom_short_string",
+          "named": true
+        },
+        {
+          "type": "atom_subscript",
+          "named": true
+        },
+        {
+          "type": "atom_tuple_or_parentheses",
+          "named": true
+        },
+        {
+          "type": "expr_div",
+          "named": true
+        },
+        {
+          "type": "expr_mul",
+          "named": true
+        },
+        {
+          "type": "expr_pow",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "number",
+          "named": true
+        },
+        {
+          "type": "unary_addressof",
+          "named": true
+        },
+        {
+          "type": "unary_neg",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "expr_mul",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "atom_cast",
+          "named": true
+        },
+        {
+          "type": "atom_deref",
+          "named": true
+        },
+        {
+          "type": "atom_dot",
+          "named": true
+        },
+        {
+          "type": "atom_func_call",
+          "named": true
+        },
+        {
+          "type": "atom_hex_number",
+          "named": true
+        },
+        {
+          "type": "atom_hint",
+          "named": true
+        },
+        {
+          "type": "atom_reg",
+          "named": true
+        },
+        {
+          "type": "atom_short_string",
+          "named": true
+        },
+        {
+          "type": "atom_subscript",
+          "named": true
+        },
+        {
+          "type": "atom_tuple_or_parentheses",
+          "named": true
+        },
+        {
+          "type": "expr_div",
+          "named": true
+        },
+        {
+          "type": "expr_mul",
+          "named": true
+        },
+        {
+          "type": "expr_pow",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "number",
+          "named": true
+        },
+        {
+          "type": "unary_addressof",
+          "named": true
+        },
+        {
+          "type": "unary_neg",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "expr_pow",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "atom_cast",
+          "named": true
+        },
+        {
+          "type": "atom_deref",
+          "named": true
+        },
+        {
+          "type": "atom_dot",
+          "named": true
+        },
+        {
+          "type": "atom_func_call",
+          "named": true
+        },
+        {
+          "type": "atom_hex_number",
+          "named": true
+        },
+        {
+          "type": "atom_hint",
+          "named": true
+        },
+        {
+          "type": "atom_reg",
+          "named": true
+        },
+        {
+          "type": "atom_short_string",
+          "named": true
+        },
+        {
+          "type": "atom_subscript",
+          "named": true
+        },
+        {
+          "type": "atom_tuple_or_parentheses",
+          "named": true
+        },
+        {
+          "type": "expr_pow",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "number",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "expr_sub",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "atom_cast",
+          "named": true
+        },
+        {
+          "type": "atom_deref",
+          "named": true
+        },
+        {
+          "type": "atom_dot",
+          "named": true
+        },
+        {
+          "type": "atom_func_call",
+          "named": true
+        },
+        {
+          "type": "atom_hex_number",
+          "named": true
+        },
+        {
+          "type": "atom_hint",
+          "named": true
+        },
+        {
+          "type": "atom_reg",
+          "named": true
+        },
+        {
+          "type": "atom_short_string",
+          "named": true
+        },
+        {
+          "type": "atom_subscript",
+          "named": true
+        },
+        {
+          "type": "atom_tuple_or_parentheses",
+          "named": true
+        },
+        {
+          "type": "expr_add",
+          "named": true
+        },
+        {
+          "type": "expr_div",
+          "named": true
+        },
+        {
+          "type": "expr_mul",
+          "named": true
+        },
+        {
+          "type": "expr_pow",
+          "named": true
+        },
+        {
+          "type": "expr_sub",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "number",
+          "named": true
+        },
+        {
+          "type": "unary_addressof",
+          "named": true
+        },
+        {
+          "type": "unary_neg",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "func",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "arguments",
+          "named": true
+        },
+        {
+          "type": "code_block",
+          "named": true
+        },
+        {
+          "type": "decorator_list",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "implicit_arguments",
+          "named": true
+        },
+        {
+          "type": "returns",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "function_call",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "arg_list",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "implicit_arguments",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "type",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "import_body",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "aliased_identifier",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "inst_add_ap",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": false,
+      "types": [
+        {
+          "type": "atom_cast",
+          "named": true
+        },
+        {
+          "type": "atom_deref",
+          "named": true
+        },
+        {
+          "type": "atom_dot",
+          "named": true
+        },
+        {
+          "type": "atom_func_call",
+          "named": true
+        },
+        {
+          "type": "atom_hex_number",
+          "named": true
+        },
+        {
+          "type": "atom_hint",
+          "named": true
+        },
+        {
+          "type": "atom_reg",
+          "named": true
+        },
+        {
+          "type": "atom_short_string",
+          "named": true
+        },
+        {
+          "type": "atom_subscript",
+          "named": true
+        },
+        {
+          "type": "atom_tuple_or_parentheses",
+          "named": true
+        },
+        {
+          "type": "expr_add",
+          "named": true
+        },
+        {
+          "type": "expr_div",
+          "named": true
+        },
+        {
+          "type": "expr_mul",
+          "named": true
+        },
+        {
+          "type": "expr_pow",
+          "named": true
+        },
+        {
+          "type": "expr_sub",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "number",
+          "named": true
+        },
+        {
+          "type": "unary_addressof",
+          "named": true
+        },
+        {
+          "type": "unary_neg",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "inst_assert_eq",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "atom_cast",
+          "named": true
+        },
+        {
+          "type": "atom_deref",
+          "named": true
+        },
+        {
+          "type": "atom_dot",
+          "named": true
+        },
+        {
+          "type": "atom_func_call",
+          "named": true
+        },
+        {
+          "type": "atom_hex_number",
+          "named": true
+        },
+        {
+          "type": "atom_hint",
+          "named": true
+        },
+        {
+          "type": "atom_reg",
+          "named": true
+        },
+        {
+          "type": "atom_short_string",
+          "named": true
+        },
+        {
+          "type": "atom_subscript",
+          "named": true
+        },
+        {
+          "type": "atom_tuple_or_parentheses",
+          "named": true
+        },
+        {
+          "type": "expr_add",
+          "named": true
+        },
+        {
+          "type": "expr_div",
+          "named": true
+        },
+        {
+          "type": "expr_mul",
+          "named": true
+        },
+        {
+          "type": "expr_pow",
+          "named": true
+        },
+        {
+          "type": "expr_sub",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "number",
+          "named": true
+        },
+        {
+          "type": "unary_addressof",
+          "named": true
+        },
+        {
+          "type": "unary_neg",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "inst_data_word",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": false,
+      "types": [
+        {
+          "type": "atom_cast",
+          "named": true
+        },
+        {
+          "type": "atom_deref",
+          "named": true
+        },
+        {
+          "type": "atom_dot",
+          "named": true
+        },
+        {
+          "type": "atom_func_call",
+          "named": true
+        },
+        {
+          "type": "atom_hex_number",
+          "named": true
+        },
+        {
+          "type": "atom_hint",
+          "named": true
+        },
+        {
+          "type": "atom_reg",
+          "named": true
+        },
+        {
+          "type": "atom_short_string",
+          "named": true
+        },
+        {
+          "type": "atom_subscript",
+          "named": true
+        },
+        {
+          "type": "atom_tuple_or_parentheses",
+          "named": true
+        },
+        {
+          "type": "expr_add",
+          "named": true
+        },
+        {
+          "type": "expr_div",
+          "named": true
+        },
+        {
+          "type": "expr_mul",
+          "named": true
+        },
+        {
+          "type": "expr_pow",
+          "named": true
+        },
+        {
+          "type": "expr_sub",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "number",
+          "named": true
+        },
+        {
+          "type": "unary_addressof",
+          "named": true
+        },
+        {
+          "type": "unary_neg",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "inst_jmp_abs",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": false,
+      "types": [
+        {
+          "type": "atom_cast",
+          "named": true
+        },
+        {
+          "type": "atom_deref",
+          "named": true
+        },
+        {
+          "type": "atom_dot",
+          "named": true
+        },
+        {
+          "type": "atom_func_call",
+          "named": true
+        },
+        {
+          "type": "atom_hex_number",
+          "named": true
+        },
+        {
+          "type": "atom_hint",
+          "named": true
+        },
+        {
+          "type": "atom_reg",
+          "named": true
+        },
+        {
+          "type": "atom_short_string",
+          "named": true
+        },
+        {
+          "type": "atom_subscript",
+          "named": true
+        },
+        {
+          "type": "atom_tuple_or_parentheses",
+          "named": true
+        },
+        {
+          "type": "expr_add",
+          "named": true
+        },
+        {
+          "type": "expr_div",
+          "named": true
+        },
+        {
+          "type": "expr_mul",
+          "named": true
+        },
+        {
+          "type": "expr_pow",
+          "named": true
+        },
+        {
+          "type": "expr_sub",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "number",
+          "named": true
+        },
+        {
+          "type": "unary_addressof",
+          "named": true
+        },
+        {
+          "type": "unary_neg",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "inst_jmp_rel",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": false,
+      "types": [
+        {
+          "type": "atom_cast",
+          "named": true
+        },
+        {
+          "type": "atom_deref",
+          "named": true
+        },
+        {
+          "type": "atom_dot",
+          "named": true
+        },
+        {
+          "type": "atom_func_call",
+          "named": true
+        },
+        {
+          "type": "atom_hex_number",
+          "named": true
+        },
+        {
+          "type": "atom_hint",
+          "named": true
+        },
+        {
+          "type": "atom_reg",
+          "named": true
+        },
+        {
+          "type": "atom_short_string",
+          "named": true
+        },
+        {
+          "type": "atom_subscript",
+          "named": true
+        },
+        {
+          "type": "atom_tuple_or_parentheses",
+          "named": true
+        },
+        {
+          "type": "expr_add",
+          "named": true
+        },
+        {
+          "type": "expr_div",
+          "named": true
+        },
+        {
+          "type": "expr_mul",
+          "named": true
+        },
+        {
+          "type": "expr_pow",
+          "named": true
+        },
+        {
+          "type": "expr_sub",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "number",
+          "named": true
+        },
+        {
+          "type": "unary_addressof",
+          "named": true
+        },
+        {
+          "type": "unary_neg",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "inst_jmp_to_label",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "identifier",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "inst_jnz",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "atom_cast",
+          "named": true
+        },
+        {
+          "type": "atom_deref",
+          "named": true
+        },
+        {
+          "type": "atom_dot",
+          "named": true
+        },
+        {
+          "type": "atom_func_call",
+          "named": true
+        },
+        {
+          "type": "atom_hex_number",
+          "named": true
+        },
+        {
+          "type": "atom_hint",
+          "named": true
+        },
+        {
+          "type": "atom_reg",
+          "named": true
+        },
+        {
+          "type": "atom_short_string",
+          "named": true
+        },
+        {
+          "type": "atom_subscript",
+          "named": true
+        },
+        {
+          "type": "atom_tuple_or_parentheses",
+          "named": true
+        },
+        {
+          "type": "expr_add",
+          "named": true
+        },
+        {
+          "type": "expr_div",
+          "named": true
+        },
+        {
+          "type": "expr_mul",
+          "named": true
+        },
+        {
+          "type": "expr_pow",
+          "named": true
+        },
+        {
+          "type": "expr_sub",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "number",
+          "named": true
+        },
+        {
+          "type": "unary_addressof",
+          "named": true
+        },
+        {
+          "type": "unary_neg",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "inst_jnz_to_label",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "atom_cast",
+          "named": true
+        },
+        {
+          "type": "atom_deref",
+          "named": true
+        },
+        {
+          "type": "atom_dot",
+          "named": true
+        },
+        {
+          "type": "atom_func_call",
+          "named": true
+        },
+        {
+          "type": "atom_hex_number",
+          "named": true
+        },
+        {
+          "type": "atom_hint",
+          "named": true
+        },
+        {
+          "type": "atom_reg",
+          "named": true
+        },
+        {
+          "type": "atom_short_string",
+          "named": true
+        },
+        {
+          "type": "atom_subscript",
+          "named": true
+        },
+        {
+          "type": "atom_tuple_or_parentheses",
+          "named": true
+        },
+        {
+          "type": "expr_add",
+          "named": true
+        },
+        {
+          "type": "expr_div",
+          "named": true
+        },
+        {
+          "type": "expr_mul",
+          "named": true
+        },
+        {
+          "type": "expr_pow",
+          "named": true
+        },
+        {
+          "type": "expr_sub",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "number",
+          "named": true
+        },
+        {
+          "type": "unary_addressof",
+          "named": true
+        },
+        {
+          "type": "unary_neg",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "lang_directive",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "identifier",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "returns",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "arguments",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "rvalue",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": false,
+      "types": [
+        {
+          "type": "atom_cast",
+          "named": true
+        },
+        {
+          "type": "atom_deref",
+          "named": true
+        },
+        {
+          "type": "atom_dot",
+          "named": true
+        },
+        {
+          "type": "atom_func_call",
+          "named": true
+        },
+        {
+          "type": "atom_hex_number",
+          "named": true
+        },
+        {
+          "type": "atom_hint",
+          "named": true
+        },
+        {
+          "type": "atom_reg",
+          "named": true
+        },
+        {
+          "type": "atom_short_string",
+          "named": true
+        },
+        {
+          "type": "atom_subscript",
+          "named": true
+        },
+        {
+          "type": "atom_tuple_or_parentheses",
+          "named": true
+        },
+        {
+          "type": "call_instruction",
+          "named": true
+        },
+        {
+          "type": "expr_add",
+          "named": true
+        },
+        {
+          "type": "expr_div",
+          "named": true
+        },
+        {
+          "type": "expr_mul",
+          "named": true
+        },
+        {
+          "type": "expr_pow",
+          "named": true
+        },
+        {
+          "type": "expr_sub",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "number",
+          "named": true
+        },
+        {
+          "type": "unary_addressof",
+          "named": true
+        },
+        {
+          "type": "unary_neg",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "type",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": false,
+      "types": [
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "type",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "typed_identifier",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "type",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "unary_addressof",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "atom_cast",
+          "named": true
+        },
+        {
+          "type": "atom_deref",
+          "named": true
+        },
+        {
+          "type": "atom_dot",
+          "named": true
+        },
+        {
+          "type": "atom_func_call",
+          "named": true
+        },
+        {
+          "type": "atom_hex_number",
+          "named": true
+        },
+        {
+          "type": "atom_hint",
+          "named": true
+        },
+        {
+          "type": "atom_reg",
+          "named": true
+        },
+        {
+          "type": "atom_short_string",
+          "named": true
+        },
+        {
+          "type": "atom_subscript",
+          "named": true
+        },
+        {
+          "type": "atom_tuple_or_parentheses",
+          "named": true
+        },
+        {
+          "type": "expr_pow",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "number",
+          "named": true
+        },
+        {
+          "type": "unary_addressof",
+          "named": true
+        },
+        {
+          "type": "unary_neg",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "unary_neg",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "atom_cast",
+          "named": true
+        },
+        {
+          "type": "atom_deref",
+          "named": true
+        },
+        {
+          "type": "atom_dot",
+          "named": true
+        },
+        {
+          "type": "atom_func_call",
+          "named": true
+        },
+        {
+          "type": "atom_hex_number",
+          "named": true
+        },
+        {
+          "type": "atom_hint",
+          "named": true
+        },
+        {
+          "type": "atom_reg",
+          "named": true
+        },
+        {
+          "type": "atom_short_string",
+          "named": true
+        },
+        {
+          "type": "atom_subscript",
+          "named": true
+        },
+        {
+          "type": "atom_tuple_or_parentheses",
+          "named": true
+        },
+        {
+          "type": "expr_pow",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "number",
+          "named": true
+        },
+        {
+          "type": "unary_addressof",
+          "named": true
+        },
+        {
+          "type": "unary_neg",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": " ",
+    "named": false
+  },
+  {
+    "type": "!=",
+    "named": false
+  },
+  {
+    "type": "%builtins",
+    "named": false
+  },
+  {
+    "type": "%lang",
+    "named": false
+  },
+  {
+    "type": "&",
+    "named": false
+  },
+  {
+    "type": "(",
+    "named": false
+  },
+  {
+    "type": ")",
+    "named": false
+  },
+  {
+    "type": "*",
+    "named": false
+  },
+  {
+    "type": "**",
+    "named": false
+  },
+  {
+    "type": "+",
+    "named": false
+  },
+  {
+    "type": "++",
+    "named": false
+  },
+  {
+    "type": "+=",
+    "named": false
+  },
+  {
+    "type": ",",
+    "named": false
+  },
+  {
+    "type": "-",
+    "named": false
+  },
+  {
+    "type": "->",
+    "named": false
+  },
+  {
+    "type": ".",
+    "named": false
+  },
+  {
+    "type": "/",
+    "named": false
+  },
+  {
+    "type": ":",
+    "named": false
+  },
+  {
+    "type": ";",
+    "named": false
+  },
+  {
+    "type": "=",
+    "named": false
+  },
+  {
+    "type": "@",
+    "named": false
+  },
+  {
+    "type": "[",
+    "named": false
+  },
+  {
+    "type": "]",
+    "named": false
+  },
+  {
+    "type": "abs",
+    "named": false
+  },
+  {
+    "type": "ap",
+    "named": false
+  },
+  {
+    "type": "as",
+    "named": false
+  },
+  {
+    "type": "atom_hex_number",
+    "named": true
+  },
+  {
+    "type": "atom_short_string",
+    "named": true
+  },
+  {
+    "type": "call",
+    "named": false
+  },
+  {
+    "type": "cast",
+    "named": false
+  },
+  {
+    "type": "dw",
+    "named": false
+  },
+  {
+    "type": "end",
+    "named": false
+  },
+  {
+    "type": "felt",
+    "named": false
+  },
+  {
+    "type": "fp",
+    "named": false
+  },
+  {
+    "type": "from",
+    "named": false
+  },
+  {
+    "type": "func",
+    "named": false
+  },
+  {
+    "type": "identifier",
+    "named": true
+  },
+  {
+    "type": "if",
+    "named": false
+  },
+  {
+    "type": "import",
+    "named": false
+  },
+  {
+    "type": "inst_ret",
+    "named": true
+  },
+  {
+    "type": "jmp",
+    "named": false
+  },
+  {
+    "type": "let",
+    "named": false
+  },
+  {
+    "type": "local",
+    "named": false
+  },
+  {
+    "type": "member",
+    "named": false
+  },
+  {
+    "type": "nondet",
+    "named": false
+  },
+  {
+    "type": "number",
+    "named": true
+  },
+  {
+    "type": "rel",
+    "named": false
+  },
+  {
+    "type": "return",
+    "named": false
+  },
+  {
+    "type": "{",
+    "named": false
+  },
+  {
+    "type": "}",
+    "named": false
+  }
+]

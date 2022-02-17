@@ -1,0 +1,61 @@
+===
+Function declaration no args
+===
+
+func no_arg():
+    return ()
+end
+
+---
+(cairo_file
+    (code_block
+        (code_element_function
+            (func
+                (identifier)
+                (arguments)
+                (code_block
+                    (code_element_return))))))
+                   
+===
+Function declaration with 1 arg
+===
+
+func one_arg( a : felt ):
+    return ()
+end
+
+---
+(cairo_file
+    (code_block
+        (code_element_function
+            (func
+                (identifier)
+                (arguments
+                    (identifier)
+                    (type))
+                (code_block
+                    (code_element_return))))))
+
+===
+Function declaration with 3 arg
+===
+
+func three_args( a: felt, b: felt, c: felt ):
+    return ()
+end
+
+---
+(cairo_file
+    (code_block
+        (code_element_function
+            (func
+                (identifier)
+                (arguments
+                    (identifier)
+                    (type)
+                    (identifier)
+                    (type)
+                    (identifier)
+                    (type))
+                (code_block
+                    (code_element_return))))))

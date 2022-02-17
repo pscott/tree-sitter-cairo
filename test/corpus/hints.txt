@@ -1,0 +1,70 @@
+===
+Function with no hint
+===
+
+func no_hint{}():
+    return ()
+end
+
+---
+(cairo_file
+    (code_block
+        (code_element_function
+            (func
+                (identifier)
+                (implicit_arguments)
+                (arguments)
+                (code_block
+                    (code_element_return))))))
+===
+One hint
+===
+
+func one_hint{syscall_ptr: felt*}():
+    return ()
+end
+
+---
+(cairo_file
+    (code_block
+        (code_element_function
+            (func
+                (identifier)
+                (implicit_arguments
+                    (identifier)
+                    (type
+                        (type)))
+                (arguments)
+                (code_block
+                    (code_element_return))))))
+
+===
+Three hints
+===
+
+func three_hints{
+        syscall_ptr : felt*, 
+        pedersen_ptr : HashBuiltin*,
+        range_check_ptr
+}():
+    return ()
+end
+
+---
+(cairo_file
+    (code_block
+        (code_element_function
+            (func
+                (identifier)
+                (implicit_arguments
+                    (identifier)
+                    (type
+                        (type))
+                    (identifier)
+                    (type
+                        (type
+                            (identifier)))
+                    (identifier))
+                (arguments)
+                (code_block
+                    (code_element_return))))))

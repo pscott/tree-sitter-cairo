@@ -1,0 +1,83 @@
+===
+Function declaration returns void
+===
+
+func return_void() -> ():
+    return ()
+end
+
+---
+(cairo_file
+    (code_block
+        (code_element_function
+            (func
+                (identifier)
+                (arguments)
+                (returns
+                    (arguments))
+                (code_block
+                    (code_element_return))))))
+
+===
+Function declaration returns felt
+===
+
+func return_felt() -> (a: felt):
+    return (a=3)
+end
+
+---
+(cairo_file
+    (code_block
+        (code_element_function
+            (func
+                (identifier)
+                (arguments)
+                (returns
+                    (arguments
+                        (identifier)
+                        (type)))
+                (code_block
+                    (code_element_return
+                        (arg_list
+                            (arg_list_item
+                                (identifier)
+                                (number)))))))))
+                
+===
+Function declaration returns 3 elems
+===
+
+func return_felt() -> (a: felt, b: felt*, c: MyStruct):
+    return (a=a, b=2, c=c)
+end
+
+---
+(cairo_file
+    (code_block
+        (code_element_function
+            (func
+                (identifier)
+                (arguments)
+                (returns
+                    (arguments
+                        (identifier)
+                        (type)
+                        (identifier)
+                        (type
+                            (type))
+                        (identifier)
+                        (type
+                            (identifier))))
+                (code_block
+                    (code_element_return
+                        (arg_list
+                            (arg_list_item
+                                (identifier)
+                                (identifier))
+                            (arg_list_item
+                                (identifier)
+                                (number))
+                            (arg_list_item
+                                (identifier)
+                                (identifier)))))))))
